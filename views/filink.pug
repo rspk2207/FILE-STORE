@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    meta(charset='uft-8')
+    title FILINK
+    link(rel='stylesheet' href='css/filink.css')
+    style.
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400&display=swap');
+  body
+    #heading
+      h1 FILINK
+      button#logoutb(onclick='location.href="/logout"') LOGOUT
+    #welcome WELCOME TO FILINK #{user.name}
+    #data
+        #imgurl IMAGE TO URL
+        form#fileup(method="POST" action="/fileup" enctype="multipart/form-data")
+            label(for="file") BROWSE 
+            input#name(type="file" name="file")
+            input#up(type="submit" value="UPLOAD")
+        #warning THE URL GENERATED ARE FOR DIFFERENT PURPOSES, THE CONTENT LINK IS USED TO REFER IT IN A SRC ATTRIBUTE (YOU CAN DOWNLOAD IT TOO), WHILE THE VIEW LINK IS USED TO VIEW IT IN A SEPARATE TAB
+        #url 
+    script.
+        var count = parseInt("#{user.filecount}");
+        var strdata = `#{strdata}`;
+        if(count>=1)
+        {
+            var finaldata = JSON.parse(strdata.replace(/(&quot\;)/g,'\"'));
+            document.getElementById('url').innerHTML = "<p id='detail'>DETAILS OF YOUR LAST UPDATED FILE: </p><br><p>FILE NAME: "+finaldata.fname+"</p><br><p>CONTENT URL: "+finaldata.srcsite+"</p><br><p>VIEW URL: "+finaldata.tabsite;
+        }    

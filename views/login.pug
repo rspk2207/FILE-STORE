@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(charset='uft-8')
+    title FILINK
+    link(rel='stylesheet' href='css/registration.css')
+    style.
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400&display=swap');
+  body
+    #heading
+      h1 FILINK
+      button#homeb(onclick='location.href="/"') HOME
+    #content
+      h2 LOGIN
+      form#login(method='POST' action='/login')
+        label(for='username') ENTER USERNAME:
+        br
+        input#username(type='text' name='username')
+        br
+        br
+        label(for='password') ENTER PASSWORD:
+        br
+        input#password(type='password' name='password')
+        br
+        br
+        button#submit(type='submit') LOGIN
+        br

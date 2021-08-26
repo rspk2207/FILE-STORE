@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(132, 54, 196);
+    margin: 0;
+    margin-top: -21px;
+    font-family: 'Montserrat', sans-serif;
+}
+#heading{
+    width: 99%;
+    min-height: 80px;
+    vertical-align: middle;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 1%;
+    box-shadow: 0 0 15px 5px black;
+}
+#loginb{
+    float: right;
+    width: auto;
+    height: auto;
+    font-size: large;
+    background-color: white;
+    border: 0px;
+    min-height: 60px;
+    margin-right: 10px;
+    margin-top: -70px;
+    transition: 0.4s;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+#loginb:hover{
+    background-color: rgb(132, 54, 196);
+    transition: 0.4s;
+}
+#registerb{
+    float: right;
+    width: auto;
+    height: auto;
+    font-size: large;
+    background-color: white;
+    border: 0px;
+    min-height: 60px;
+    margin-right: 90px;
+    margin-top: -70px;
+    transition: 0.4s;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+#registerb:hover{
+    background-color: rgb(132, 54, 196);
+    transition: 0.4s;
+}
+#about{
+    width: 50%;
+    min-height: 300px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 5px black;
+}
+#about h2{
+    text-align: center;
+}

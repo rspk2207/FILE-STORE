@@ -1,0 +1,26 @@
+{
+  "name": "onsites3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "googleapis": "^84.0.0",
+    "mongoose": "^6.0.1",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "pug": "^3.0.2",
+    "whatwg-url": "^9.1.0"
+  }
+}

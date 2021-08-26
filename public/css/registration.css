@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(132, 54, 196);
+    margin: 0;
+    margin-top: -21px;
+    font-family: 'Montserrat', sans-serif;
+}
+#heading{
+    width: 99%;
+    min-height: 80px;
+    vertical-align: middle;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 1%;
+    box-shadow: 0 0 15px 5px black;
+}
+#homeb{
+    float: right;
+    width: auto;
+    height: auto;
+    font-size: large;
+    background-color: white;
+    border: 0px;
+    min-height: 60px;
+    margin-right: 2%;
+    margin-top: -70px;
+    transition: 0.4s;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+#homeb:hover{
+    background-color: rgb(132, 54, 196);
+    transition: 0.4s;
+}
+#content{
+    width: 30%;
+    min-height: 300px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 5px black;
+}
+#content h2{
+    text-align: center;
+}
+#register{
+    margin-left: auto;
+    padding: 1%;
+}
+input{
+    background-color: rgb(97, 32, 151);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+#submit{
+    background-color: white;
+    width: auto;
+    height: auto;
+    font-size: large;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+#submit:hover{
+    background-color: rgb(132, 54, 196);
+    transition: 0.4s;
+}
