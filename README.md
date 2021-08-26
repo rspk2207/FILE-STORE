@@ -1,1 +1,1 @@
-# onsites3
+ONSITES3: Read package.json for dependencies, Views folder is where the pug goes in, Public/css is where the stylesheets goes in, and Models is where the database schemas and authentication tools goes in, include a "uploads" folder in the main folder(along with models,views,public), without fail, so that it will initially remain empty. Index.js is the main file containing the server.
